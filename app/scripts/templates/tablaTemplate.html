@@ -1,0 +1,23 @@
+<div>
+
+<form ng-submit="addNombre()">
+
+        <input type="text" ng-model="nameText"  size="30"
+               placeholder="nombre">
+        <input type="text" ng-model="genderText"  size="30"
+               placeholder="genero">
+        <input type="text" ng-model="ageText"  size="30"
+               placeholder="edad">              
+        <input class="btn-primary" type="submit" value="agregar">
+    </form>
+<br>
+<br>
+<p><input placeholder="Buscar" class="form-control" ng-model="search"></p>
+    <table style="width: 100%;">
+    	<tr ng-repeat="nombre in nombres | filter:search" ><td>{{nombre.name}}</td><td>{{nombre.gender}}</td><td>{{nombre.age | ageFilter}}</td><td>
+    	<form ng-submit="deleteNombres($index)">
+    		<input class="btn-primary" type="submit" value="delete"></td>
+    	</form>
+    	</tr>
+    </table>
+</div>
