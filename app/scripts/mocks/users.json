@@ -2,51 +2,51 @@
   {
     "name": "John",
     "age": 25,
-    "gender": "boy"
+    "gender": true
   },
   {
     "name": "Jessie",
     "age": 30,
-    "gender": "girl"
+    "gender": false
   },
   {
     "name": "Johanna",
     "age": 28,
-    "gender": "girl"
+    "gender": false
   },
   {
     "name": "Joy",
     "age": 15,
-    "gender": "girl"
+    "gender": false
   },
   {
     "name": "Mary",
     "age": 28,
-    "gender": "girl"
+    "gender": false
   },
   {
     "name": "Peter",
     "age": 12,
-    "gender": "boy"
+    "gender": true
   },
   {
     "name": "Sebastian",
     "age": 50,
-    "gender": "boy"
+    "gender": true
   },
   {
     "name": "Erika",
     "age": 27,
-    "gender": "girl"
+    "gender": false
   },
   {
     "name": "Patrick",
     "age": 80,
-    "gender": "boy"
+    "gender": true
   },
   {
     "name": "Samantha",
     "age": 60,
-    "gender": "girl"
+    "gender": false
   }
 ]
