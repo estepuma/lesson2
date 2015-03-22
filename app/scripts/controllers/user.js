@@ -14,11 +14,11 @@
     $scope.nombres = res;
   });
 
-   $scope.deleteNombresFn = function(index) {
+   $scope.deleteNombres = function(index) {
     $scope.nombres.splice(index,1);
   };
 
-  $scope.addNombreFn = function () {
+  $scope.addNombre = function () {
    $scope.nombres.push({name:$scope.nameText,gender:$scope.genderText,age:$scope.ageText});
  }
 
