@@ -36,6 +36,10 @@ http://meanjs.org/generator.html#express-controller
 
 http://try.mongodb.org/?_ga=1.9434357.1730154980.1426032800
 
-First lesson slide
+##First lesson slide 
 
 http://slides.com/axnotliztac/deck
+
+## Axnotliztac Skype
+
+axnotliztacfc
