@@ -17,4 +17,4 @@ http://plnkr.co/edit/lBqOUNNDg6amaoqW0RgB?p=streamer
 
 AngularJS + NodeJS
 
-https://github.com/btford/angular-express-seed.git
+git clone git@github.com:scotch-io/node-todo
