@@ -14,7 +14,7 @@
 <br>
 <p><input placeholder="Buscar" class="form-control" ng-model="search"></p>
     <table style="width: 100%;">
-    	<tr ng-repeat="nombre in nombres | filter:search" ><td>{{nombre.name}}</td><td>{{nombre.gender}}</td><td>{{nombre.age | ageFilter}}</td><td>
+    	<tr ng-class="{'girls':(nombre.gender=='girl'),'boys':(nombre.gender=='boy')}" ng-repeat="nombre in nombres | filter:search" ><td>{{nombre.name}}</td><td>{{nombre.gender}}</td><td>{{nombre.age | ageFilter}}</td><td>
     	<form ng-submit="deleteNombres($index)">
     		<input class="btn-primary" type="submit" value="delete"></td>
     	</form>
