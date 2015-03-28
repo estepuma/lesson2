@@ -15,10 +15,9 @@ Running `grunt test` will run the unit tests with karma.
 
 http://plnkr.co/edit/lBqOUNNDg6amaoqW0RgB?p=streamer
 
-AngularJS + NodeJS
+## AngularJS + NodeJS
 
 git clone git@github.com:scotch-io/node-todo
-
 
 Enable cors in NodeJS + ExpressJS
 
@@ -32,3 +31,11 @@ app.use(function(req, res, next) {
 Yeoman MeanJS Generator
 
 http://meanjs.org/generator.html#express-controller
+
+## MongoDB interactive tutorial
+
+http://try.mongodb.org/?_ga=1.9434357.1730154980.1426032800
+
+First lesson slide
+
+http://slides.com/axnotliztac/deck
