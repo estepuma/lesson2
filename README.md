@@ -14,3 +14,7 @@ Running `grunt test` will run the unit tests with karma.
 ## Plunker (ngAnimate, ngOptions)
 
 http://plnkr.co/edit/lBqOUNNDg6amaoqW0RgB?p=streamer
+
+AngularJS + NodeJS
+
+https://github.com/btford/angular-express-seed.git
