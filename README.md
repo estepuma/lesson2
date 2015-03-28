@@ -29,3 +29,6 @@ app.use(function(req, res, next) {
   next();
   });
 ```
+Yeoman MeanJS Generator
+
+http://meanjs.org/generator.html#express-controller
